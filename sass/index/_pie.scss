@@ -1,0 +1,9 @@
+.pie {
+	height: 5vh;
+	background-color: #222222;
+
+	@include sm {}
+	@include md {}
+	@include lg {}
+	@include xl {}
+}

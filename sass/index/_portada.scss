@@ -1,0 +1,9 @@
+.portada {
+	height: 100vh;
+	background-color: #111111;
+
+	@include sm {}
+	@include md {}
+	@include lg {}
+	@include xl {}
+}

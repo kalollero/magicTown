@@ -1,0 +1,42 @@
+//Media Queries
+@import "_media_queries.scss";
+
+/* ================================
+		ESTILOS GENERALES
+=================================*/
+.contenedorLandingPage {
+	position: relative;
+	overflow-x: hidden;
+}
+
+/* ================================
+		INICIAN MÓDULOS
+=================================*/
+
+/* -------- Barra de Navegación --------*/
+@import "index/_menuNavegacion.scss";
+
+/* -------- Menú Navegación Extendida --------*/
+//@import "index/_menu_navegacion_extendida.scss";
+
+/* -------- Portada -------- */
+@import "index/_portada.scss";
+
+/* -------- Nosotros --------*/
+@import "index/_nosotros.scss";
+
+/* -------- Soluciones --------*/
+@import "index/_soluciones.scss";
+
+/* -------- Clientes --------*/
+@import "index/_clientes.scss";
+
+/* -------- Contacto --------*/
+@import "index/_contacto.scss";
+
+/* -------- Fondo Seccion --------*/
+@import "index/_fondoSeccion.scss";
+
+/* -------- Pie --------*/
+@import "index/_pie.scss";
+
